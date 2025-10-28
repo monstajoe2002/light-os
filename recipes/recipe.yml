@@ -27,6 +27,7 @@ modules:
       packages:
         - nano
         - starship
+        - brave-browser
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
