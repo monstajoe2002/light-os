@@ -21,6 +21,8 @@ modules:
     repos:
       copr:
         - atim/starship
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo # Brave repository
     install:
       packages:
         - nano
