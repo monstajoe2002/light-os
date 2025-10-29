@@ -28,6 +28,7 @@ modules:
         - nano
         - starship
         - brave-browser
+        - gnome-tweaks
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
