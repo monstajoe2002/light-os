@@ -28,7 +28,6 @@ modules:
         - nano
         - starship
         - brave-browser
-        - gnome-tweaks
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -43,8 +42,6 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
-          - org.gnome.Loupe
-          - org.gnome.Extensions
           - org.libreoffice.LibreOffice
       - scope: user # Also add Flathub user repo, but no user packages
 
